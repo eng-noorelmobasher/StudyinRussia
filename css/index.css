@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/earlyaccess/scheherazade.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@200&display=swap');
+   * {
+    font-family: 'scheherazade', sans-serif;
+   }
+   .fl {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.b1 {
+   margin-left: 20px;
+   font-size: 26px;
+}
+
+.header  {
+    background-image: url("image2.jpg");
+
+    background-size: cover; 
+}
+.b1:hover {
+    color: blue;
+    transition: all 600ms ease-in-out;
+  
+}
+.firstdiv {
+    animation-name: popup1;
+    animation-duration: 3s;
+    
+}
+.p1 {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+
+
+}
+.p2 {
+    color: white;
+ 
+
+}
+
+
+.whyushover {
+    -webkit-animation: divjump 2.5s infinite  alternate;
+    animation: divjump 2.5s infinite  alternate;
+}
+
+.whyus .whyushover:hover {
+    background-color: #0d6efd !important;
+    transition:all 1s ;
+    cursor: pointer;
+    border-color: #0d6efd !important;
+ 
+}
+.whyus .whyushover:hover p {
+    color: #fff !important;
+}
+.img2 {
+    border-radius: 15px;
+
+}
+.div3 {
+    background-color: #023a51;
+}
+.p4 {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+.p5 {
+    color:#023a51;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+@keyframes popup1 {
+    from {
+       
+        filter: opacity(0%);
+    }
+    to {
+      
+        filter: opacity(100%);
+    }
+}
+.img2 {
+    -webkit-animation: mover 2.5s infinite  alternate;
+    animation: mover 2.5s infinite  alternate;
+}
+
+.ul1 {
+    list-style-type: none;
+}
+.a1 {
+    text-decoration: none;
+}
+a .fcol {
+    color: rgb(155, 17, 155) !important;
+}
+.hr1 {
+    margin-right: 30%;
+    margin-left: 30%;
+    border: 2px solid gray;
+}
+.a1:hover {
+    color: blue !important;
+    transition: all 1s ease-in-out !important;
+}
+.divround {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #023a51;
+    margin-top: -40px;
+    background-color: white;
+    border-right: none;
+    border-left: none;
+}
+.p7 {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.p9 {
+    margin-left: 20%;
+}
+.subjectanim {
+    -webkit-animation: divjump 2.5s infinite  alternate;
+    animation: divjump 2.5s infinite  alternate;
+}
+.hr2 {
+    border: 2px solid blue;
+    margin-right: 45%;
+    margin-left: 45%;
+    background-color: blue;
+}
+.p10 {
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.amail {
+    text-decoration: none;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@-webkit-keyframes divjump {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-7px); }
+}
+@keyframes divjump {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-7px); }
+}
+
+
+
+

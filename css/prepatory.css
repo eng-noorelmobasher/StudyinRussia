@@ -1,0 +1,25 @@
+body {
+    background-image: url("imagebg2.jpg");
+    background-size: contain;
+}
+.p7 {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.p9 {
+    margin-left: 20%;
+}
+.subjectanim {
+    -webkit-animation: divjump 2.5s infinite  alternate;
+    animation: divjump 2.5s infinite  alternate;
+}
+.hr2 {
+    border: 2px solid blue;
+    margin-right: 45%;
+    margin-left: 45%;
+    background-color: blue;
+}
+.p10 {
+    margin-right: 30%;
+    margin-left: 30%;
+}
